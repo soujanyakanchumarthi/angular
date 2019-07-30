@@ -1,0 +1,19 @@
+<h1 align=center> Employee details:</h1>
+<table border="1" align=center>
+    <tr>
+        <th>empid:</th>
+        <th>name:</th>
+        <th>dateOfBirth:</th>
+        <th>gender:</th>
+        <th>sal:</th>
+    </tr>
+    <tr>
+        <tr *ngFor="let emp of emp">
+        <th>{{emp.empid}}</th>
+        <th>{{emp.name}}</th>
+        <th>{{emp.dateOfBirth}}</th>
+        <th>{{emp.gender}}</th>
+        <th>{{emp.sal}}</th>
+    </tr>
+</table>
+
